@@ -8,7 +8,7 @@ when "lucid"
   include_recipe "libxml2"
 
   packages |= %w/
-    libiscc60
+    libisccc60
   /
 when "precise"
   packages |= %w/
